@@ -1,0 +1,52 @@
+.browser-window
+{
+    border: 1px solid rgb(18, 18, 53);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 18px rgba(4, 1, 1, 0);
+    background: rgb(234, 192, 192);
+}
+
+.browser-header
+{
+    background: rgb(220, 204, 204);
+    padding: 18px 12px;
+    display:flex;
+    align-items:center;
+    gap:6px;
+}
+
+.dot
+{
+    width:12px;
+    height: 12px;
+    background:#ff5f57;
+    border-radius: 50%;
+}
+
+.dot.yellow
+{
+    background-color: yellow;
+}
+
+.dot.green
+{
+    background-color: green;
+}
+
+.browser-toolbar
+{
+    padding: 8px 12px;
+    border-bottom:2px solid grey
+}
+
+#result
+{
+    padding: 15px;
+    min-height: 200px;
+    background: rgb(220, 204, 204);
+    border-top:1px solid white;
+    white-space:pre-line;
+    font-size: 0.95rem;
+    color: #222;
+}
